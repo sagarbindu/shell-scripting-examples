@@ -7,3 +7,4 @@ echo "Number is equal to 10"
 else
 echo "Number is less than 10"
 fi
+
