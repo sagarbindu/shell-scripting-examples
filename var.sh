@@ -23,3 +23,7 @@ echo "$pi"
 echo "Please enter your name"
 read name
 echo "Hello, $name !, nice to meet u"
+
+string="sagar bindu dash"
+length=${#string}
+echo "$length"
