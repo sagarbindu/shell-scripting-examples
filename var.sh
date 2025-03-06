@@ -1,29 +1,30 @@
 #!/bin/bash
-name="sagar"
-echo "Hi, $name"
 
-age=24
-echo "Age: $age years"
+# String Variable
+name="John"
+echo "Hello, $name!" # Output: Hello, John!
 
-x=4
+# Integer Variable
+age=25
+echo "Age: $age years" # Output: Age: 25 years
+
+# Arithmetic Operations
+x=10
 y=5
+sum=$((x + y))
+echo "Sum: $sum" # Output: Sum: 15
 
-sum=$((x+y))
+# Concatenation
+greeting="Hello"
+subject="World"
+message="$greeting, $subject!"
+echo $message # Output: Hello, World!
 
-echo "Sum:$sum"
-
-Current_date=`date` 
-echo "Current Date & Time : $Current_date"
-
-readonly pi=3.1415
-pi=4.33
-echo "$pi"
-
-
-echo "Please enter your name"
-read name
-echo "Hello, $name !, nice to meet u"
-
-string="sagar bindu dash"
+# String Length
+string="Shell Scripting"
 length=${#string}
-echo "$length"
+echo "Length: $length" # Output: Length: 15
+
+# Substring Extraction
+substring=${string:0:4} # Extracts first 4 characters
+echo "Substring: $substring" # Output: Substring: Shell
