@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Prompt the user for their name
 echo "Please enter your name:"
 read name
