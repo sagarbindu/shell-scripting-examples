@@ -2,7 +2,7 @@
 
 This repository contains various Bash scripts for system monitoring, backup, deployment, text processing, and user management. These scripts are skeletons and require customization before use.
 
-## 1. **System Resource Monitoring** (`monitor.sh`)
+## 1. **System Resource Monitoring** (`Monitoring.sh`)
 
 This script monitors system resources, including CPU, memory, and disk usage, and updates every 5 seconds.
 
